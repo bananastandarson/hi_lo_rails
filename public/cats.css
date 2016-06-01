@@ -1,0 +1,87 @@
+.catimg {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  /*width: auto;*/
+
+
+
+}
+body {
+
+}
+
+.containermain {
+  background-color: white;
+  padding-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.rightimg {
+  float: right;
+  margin-bottom:5px;
+}
+.row1 {
+  clear:both;
+}
+
+.row {
+   margin-top:5px;
+   margin-bottom:5px;
+   margin-left:0;
+   margin-right:0;
+   padding-left:0;
+   padding-right:0;
+ }
+.col-sm-4 img{
+  vertical-align: middle;
+}
+
+
+ .jumbotron {
+   background-image:url(http://res.freestockphotos.biz/pictures/17/17603-a-cat-licking-his-mouth-pv.jpg);
+   background-size: cover;
+   color:white;
+ }
+
+h1 {
+  clear:both;
+  font-family: 'Covered By Your Grace', cursive;
+}
+
+h3 {
+  color: black;
+}
+.carousel_img {
+  /*float:left;*/
+  /*margin-left: 50px;
+  max-height: 200px;
+  margin: 10px;*/
+  max-width:100%;
+  max-height:150px;
+  /*float: right;*/
+}
+.right.carousel-control, .left.carousel-control {
+    opacity: 0;
+    filter:alpha(opacity=0); /* IE support */
+}
+.carousel-inner h3 {
+  /*padding-top: 60px;*/
+
+}
+
+.carousel-inner p {
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 24px;
+}
+
+
+#si_img  {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
